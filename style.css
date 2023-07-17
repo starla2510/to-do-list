@@ -1,0 +1,59 @@
+body {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  background-color: black;
+  color: #fff;
+}
+
+
+.hero {
+  padding: 2rem;
+  background-color: brown;
+}
+
+.hero h2 {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.container {
+  padding: 1rem;
+  margin: 3rem;
+  text-align: center;
+}
+
+.done {
+  text-decoration:line-through;
+  font-style: italic;
+}
+
+#todo{
+  list-style-type: none;
+  margin: 2rem 0;
+  padding:0;
+}
+
+#todo li {
+  margin: 1rem ;
+  letter-spacing: 1px;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.checkBox {
+  margin: 0 1rem;
+  color: red;
+  cursor: pointer;
+}
+
+
+
+@media screen and (max-width :400px) {
+  #new-text {
+    width: 100px;
+    font-size: 12px;
+  }
+  .container {
+    margin: 1rem;
+  }
+}
